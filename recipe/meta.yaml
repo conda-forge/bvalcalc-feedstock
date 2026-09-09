@@ -1,5 +1,5 @@
 {% set name = "bvalcalc" %}
-{% set version = "1.4.5" %}
+{% set version = "1.4.6" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6fcd8101ebafe0040cb019075e4e71631274bddee41abc1f7077f68bc9456fcb
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: eeca370efa394878df86b71c3663c668c3117060632db4b8a2ab2a3b7cfe3626
 
 build:
   number: 0
